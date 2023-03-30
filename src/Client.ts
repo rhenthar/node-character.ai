@@ -8,7 +8,7 @@ export default class CharacterAI {
   public async authenticate(accessToken: string): Promise<void> {
     const { body } = await this.request(
       'https://beta.character.ai/dj-rest-auth/auth0/',
-      JSON.stringify({ access_token: access_token:"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkVqYmxXUlVCWERJX0dDOTJCa2N1YyJ9.eyJpc3MiOiJodHRwczovL2NoYXJhY3Rlci1haS51cy5hdXRoMC5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMTQ4MTYwMDE4MjMwMTUzOTg0MTMiLCJhdWQiOlsiaHR0cHM6Ly9hdXRoMC5jaGFyYWN0ZXIuYWkvIiwiaHR0cHM6Ly9jaGFyYWN0ZXItYWkudXMuYXV0aDAuY29tL3VzZXJpbmZvIl0sImlhdCI6MTY3OTM3MTUwOCwiZXhwIjoxNjgxOTYzNTA4LCJhenAiOiJkeUQzZ0UyODFNcWdJU0c3RnVJWFloTDJXRWtucVp6diIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwifQ.DU-z7cM7097mo8BFgA1lzaIYWkgQxpiLA91lK-UTMLIaV7Iim0lfV9OV3Tr_4AHoeeD7xYfsHOVnJcqolqLapSCCL5pa1FoDmaumM0UvwY6fcL9K2i-AmhFT3xQNg6kDcYMrJ3XUZgIlxE3A4tvgyX_I8Mvq9o81ugVAi0E9tNTRlumc8fRZjieXF03ZHY9-gboPWBSRDNYTVF2QY2D4AaMZzN5baf4YcWWwNZn9FJt0DuOhM4liDriInGJ_6BvOyyv5MlwLvTYjuWYnaA9oLzwh6JAOad-zyYNJOHTihBT7MSnAlZAcobLvq86nzrioiTZu0fmDmv-R2BCLNh8OWQ" }),
+      JSON.stringify({ access_token: accessToken }),
       { method: 'POST', headers: { 'Content-Type': 'application/json' } }
     );
 
