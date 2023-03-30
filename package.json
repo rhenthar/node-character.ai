@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RichardDorian/node-character.ai.git"
+    "url": "git+https://github.com/rhenthar/node-character.ai.git"
   },
   "keywords": [
     "character.ai",
     "ai"
   ],
-  "author": "RichardDorian",
+  "author": "rhenthar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RichardDorian/node-character.ai/issues"
+    "url": "https://github.com/rhenthar/node-character.ai/issues"
   },
-  "homepage": "https://github.com/RichardDorian/node-character.ai#readme",
+  "homepage": "https://github.com/rhenthar/node-character.ai#readme",
   "devDependencies": {
     "@types/node": "^18.11.9",
     "typescript": "^4.8.4"
